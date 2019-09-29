@@ -1,0 +1,77 @@
+
+.div{
+    width: 350px;
+    height: 503px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border: 1px solid lightgray;
+    box-shadow: 0 0 5px gray;
+}
+.position{
+    position: relative;
+}
+.button{
+    text-align: center;
+    color: white;
+    font-size: 65%;
+    font-weight: bold;
+}
+
+.title{
+    text-align: justify;
+    color: #333333;
+    margin-left: 25px;
+}
+
+.title2{
+    color: #e74c3c;
+    margin-left: 25px;
+}
+
+.caja{
+    border: 10px solid #e74c3c;
+    width: 45px;
+}
+
+.foto{
+    height: 332px;
+    transition: all 1s ease-in;
+    overflow: hidden;
+}
+
+.foto img{
+    width: 127%;
+
+}
+
+.parrafe{
+    display: none;
+    margin-left: 25px;
+}
+
+.div:hover .parrafe{
+    display: inline-block;
+}
+
+.div:hover .foto{
+    height: 222px
+}
+
+.pie{
+    color: gray;
+    font-size: 100%;
+}
+
+.icon{
+    position: absolute;
+    left: 30px;
+    bottom: 150px;
+    color: gray;
+    margin-left: 25px;
+}
+
+.icon2{
+    position: absolute;
+    left: 170px;
+    bottom: 150px;
+}
